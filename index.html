@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini ChatGPT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">🤖 Mini ChatGPT</div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Écris ton message..." autofocus>
+      <button onclick="sendMessage()">➤</button>
+    </div>
+  </div>
+  <script src="data/storage.js"></script>
+  <script src="data/memory.js"></script>
+  <script src="ai/rules.js"></script>
+  <script src="ai/ia1.js"></script>
+  <script src="ai/ia2.js"></script>
+  <script src="ai/ia3.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
